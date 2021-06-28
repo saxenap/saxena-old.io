@@ -1,0 +1,7 @@
+*.iml
+.idea/
+.jekyll-cache/
+_site/
+.jekyll-metadata
+.sass-cache/
+vendor/

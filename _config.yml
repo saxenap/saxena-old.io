@@ -1,0 +1,18 @@
+timezone: America/New_York
+
+paginate:         5
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-hydeout
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+exclude:
+  - docker-compose-dev.yml
+  - docker-compose-prod.yml
+  - saxena.io.iml
+  - .gitignore
+  - Makefile

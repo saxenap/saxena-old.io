@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+
+  jekyll:
+    image: jekyll/jekyll:${JEKYLL_VERSION}
+    volumes:
+      - ./vendor/bundle:/usr/local/bundle
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    ports:
+      - 4000:4000
+    command: jekyll new saxena.io
+
+
